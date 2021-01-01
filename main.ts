@@ -16,4 +16,5 @@ let mySprite = sprites.create(img`
     . f d d f d d f d d b e f f f f 
     . . f f f f f f f f f f f f f . 
     `, SpriteKind.Player)
+mySprite.setFlag(SpriteFlag.StayInScreen, true)
 controller.moveSprite(mySprite)
