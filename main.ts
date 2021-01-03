@@ -1,3 +1,5 @@
+scene.setBackgroundColor(8)
+effects.starField.startScreenEffect()
 let mySprite = sprites.create(img`
     . . . . f f f f f . . . . . . . 
     . . . f e e e e e f . . . . . . 
